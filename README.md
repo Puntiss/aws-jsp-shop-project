@@ -39,7 +39,12 @@ If you want to try live code you can visit the website [here](http://server1-env
 
 **6. See result**
 - Navigate to `http://localhost:8080/` in your browser to see the result.
-   
+
+**7. Host on AWS**
+- To use Tomcat or Jboss on Amazon Linux, you would need to install it manually or use Elastic Beanstalk which deploys the application code on Tomcat hosted on Amazon Linux 2 instances
+- Attach an Elastic IP and be ready to go!
+- Also you can consider adding Auto Scaling Group or/and Load Balancing, Firewall and other AWS services
+
 Happy coding!
 
 
